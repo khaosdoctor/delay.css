@@ -1,0 +1,26 @@
+{
+  "name": "delay.css",
+  "version": "1.0.0",
+  "description": "CSS animation helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaosdoctor/delay.css.git"
+  },
+  "keywords": [
+    "animation"
+  ],
+  "author": "Lucas Santos <lhs.santoss@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khaosdoctor/delay.css/issues"
+  },
+  "homepage": "https://github.com/khaosdoctor/delay.css#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
