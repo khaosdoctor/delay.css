@@ -1,0 +1,24 @@
+{
+  "name": "delay.css",
+  "homepage": "https://github.com/khaosdoctor/delay.css",
+  "authors": [
+    "Lucas Santos <lhs.santoss@gmail.com>"
+  ],
+  "description": "CSS Animation control helpers",
+  "main": "delay.css",
+  "keywords": [
+    "delay",
+    "animation",
+    "css",
+    "animate",
+    "timming"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
