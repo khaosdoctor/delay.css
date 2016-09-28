@@ -1,0 +1,8 @@
+@for $i from 1 through 10 {
+  .delayed-#{$i} {
+    animation-delay: #{$i / 1.2}s;
+  }
+  .duration-#{$i} {
+    animation-duration: #{$i / 1.1}s !important;
+  }
+}
