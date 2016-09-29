@@ -1,8 +1,13 @@
-@for $i from 1 through 10 {
+$i: 0;
+
+@while $i < 6000 {
+
+  $i: $i + 100;
+
   .delayed-#{$i} {
-    animation-delay: #{$i / 1.2}s;
+    animation-delay: #{$i / 1000}s;
   }
   .duration-#{$i} {
-    animation-duration: #{$i / 1.1}s !important;
+    animation-duration: #{$i / 1000}s;
   }
 }
