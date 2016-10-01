@@ -9,7 +9,6 @@ node_js:
 before_script:
   - npm i -g gulp
   - npm i
-  - npm start
 matrix:
   allow_failures:
     - node_js: "iojs"
