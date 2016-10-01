@@ -27,7 +27,7 @@ First, some stats!
 
 ## Whats is it
 
-Delay.css works best along with [Daniel Eden's](@daneden) [Animate.css](https://github.com/daneden/animate.css), by including CSS classes and helpers to control animation timmings and delays, but it works on any kind of CSS animations as well.
+Delay.css works best along with [Daniel Eden's](https://github.com/daneden) [Animate.css](https://github.com/daneden/animate.css), by including CSS classes and helpers to control animation timmings and delays, but it works on any kind of CSS animations as well.
 
 In other words, it is possible to add sequential animations or increase the duration of a particular animation using only a tiny helper class.
 
