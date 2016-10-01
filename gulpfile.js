@@ -1,19 +1,25 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var plumber = require('gulp-plumber');
-var uglify = require('gulp-uglify');
+var autoprefixer = require('gulp-autoprefixer');
 
-gulp.task('build', function() {
+gulp.task('build', function () {
 
-gulp.src('./src/*.scss')
-.pipe(plumber())
-.pipe(sass())
-.pipe(uglify())
-.pipe(gulp.dest('./dist/');
+  return gulp.src('./src/*.scss')
+    .pipe(plumber())
+    .pipe(sass({
+      outputStyle: 'compressed'
+    }))
+    .pipe(autoprefixer({
+      browsers: ['last 2 versions', '> 5%', 'Firefox ESR']
+    }))
+    .pipe(gulp.dest('./dist/'));
 
 });
 
 
-gulp.task('default', ['sass']);
+gulp.task('default', ['build']);
 
-gulp.watch('**/*.scss', ['sass']);
+gulp.task('watch', function () {
+  gulp.watch('**/*.scss', ['build']);
+})
