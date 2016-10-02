@@ -11,7 +11,13 @@
     "url": "git+https://github.com/khaosdoctor/delay.css.git"
   },
   "keywords": [
-    "animation"
+    "animation",
+    "timmings",
+    "animate.css",
+    "animate",
+    "delay",
+    "duration",
+    "css"
   ],
   "author": "Lucas Santos <lhs.santoss@gmail.com>",
   "license": "MIT",
