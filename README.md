@@ -42,16 +42,26 @@ Delay.css was created to help you control your CSS animation timmings within a p
 ## Installing
 
 ```
-$ bower install delay.css
+$ bower install delay.css --save
 ```
 
 It also works with npm:
 
 ```
-$ npm i delay.css
+$ npm i delay.css --save
 ```
 
 ## Using
+
+First of all, add the css to your document's head:
+
+```html
+<head>
+  <link rel="stylesheet" href="animate.min.css">
+</head>
+```
+
+Then select the desired duration or delay.
 
 Delay.css is divided into 100ms blocks that goes from 100 to 6000 (100ms to 6s) of timming control, and two simple classes `.delay-<ms>` and `.duration-<ms>`.
 
@@ -62,10 +72,27 @@ This can be easily adjusted if you need less or more timming control (as you wil
 To use it, just add the corresponding classes to your elements, for instance:
 
 ```html
-<div class="animate fade-up delay-1200">
+<div class="animate fadeInDown delay-1200"> <!-- This will happen first -->
+  <h1 class="animate fadeInUp delay-1500">This is a header</h1> <!-- This will happen 300ms after the div has appeared -->
+</div>
 ```
 
 Try it out in your css, or [see it in action](https://khaosdoctor.github.io/delay.css).
+
+### Building more timmings
+
+To add or remove timmings from your customized version of this project, just go to the `src` folder and modify the file called `delay.scss`, on the lines:
+
+```scss
+@while $i < <the maximum time> {
+
+  $i: $i + <the hops>;
+
+  ...
+}
+```
+
+As it uses Sass, you'll need to build it using your own sass compiler or running the gulpfile included in the project when you download it, just type `gulp` and it will create a `dist` folder with your alterations.
 
 ## Wanna join the team?
 
