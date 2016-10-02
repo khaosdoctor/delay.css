@@ -57,7 +57,7 @@ First of all, add the css to your document's head:
 
 ```html
 <head>
-  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="delay.css">
 </head>
 ```
 
