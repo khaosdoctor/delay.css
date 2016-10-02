@@ -16,6 +16,7 @@
   "license": "MIT",
   "ignore": [
     "**/.*",
+    ".gitignore",
     "*.md",
     "*.yml",
     "node_modules",
