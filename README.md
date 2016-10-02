@@ -1,4 +1,4 @@
-![NGS Logo](logo_title.png)
+![Delay.css logo](logo_title.png)
 
 # delay.css [![Build Status Master](https://travis-ci.org/khaosdoctor/ngs.svg?branch=master)](https://travis-ci.org/khaosdoctor/delay.css)
 
@@ -31,6 +31,10 @@ Delay.css works best along with [Daniel Eden's](https://github.com/daneden) [Ani
 
 In other words, it is possible to add sequential animations or increase the duration of a particular animation using only a tiny helper class.
 
+> But we can also do this with CSS3, why add this?
+
+Because of the same reason we have [Animate.css](https://github.com/daneden/animate.css), it is just easier to implement something that has already been done and tested than create something from scratch.
+
 ### TL;DR
 
 Delay.css was created to help you control your CSS animation timmings within a project.
@@ -52,6 +56,14 @@ $ npm i delay.css
 Delay.css is divided into 100ms blocks that goes from 100 to 6000 (100ms to 6s) of timming control, and two simple classes `.delay-<ms>` and `.duration-<ms>`.
 
 This can be easily adjusted if you need less or more timming control (as you will see in the next section). Each class will delay the start of the animation by the amount of miliseconds it describes. So the class `.delay-100` will delay the start of the start of the animation by 100ms and `.duration-100` will __force__ the animation to have 100ms long.
+
+This can be easily adjusted if you need less or more timming control (as you will see in the next section).
+
+To use it, just add the corresponding classes to your elements, for instance:
+
+```html
+<div class="animate fade-up delay-1200">
+```
 
 Try it out in your css, or [see it in action](https://khaosdoctor.github.io/delay.css).
 
