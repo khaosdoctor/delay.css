@@ -16,6 +16,8 @@
   "license": "MIT",
   "ignore": [
     "**/.*",
+    "*.md",
+    "*.yml",
     "node_modules",
     "**/*.scss",
     "bower_components",

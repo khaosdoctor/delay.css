@@ -4,7 +4,7 @@ $i: 0;
 
   $i: $i + 100;
 
-  .delayed-#{$i} {
+  .delay-#{$i} {
     animation-delay: #{$i / 1000}s;
   }
   .duration-#{$i} {

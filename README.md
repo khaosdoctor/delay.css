@@ -27,7 +27,7 @@ First, some stats!
 
 ## Whats is it
 
-Delay.css works best along with [Daniel Eden's](@daneden) [Animate.css](https://github.com/daneden/animate.css), by including CSS classes and helpers to control animation timmings and delays, but it works on any kind of CSS animations as well.
+Delay.css works best along with [Daniel Eden's](https://github.com/daneden) [Animate.css](https://github.com/daneden/animate.css), by including CSS classes and helpers to control animation timmings and delays, but it works on any kind of CSS animations as well.
 
 In other words, it is possible to add sequential animations or increase the duration of a particular animation using only a tiny helper class.
 
@@ -41,8 +41,6 @@ Delay.css was created to help you control your CSS animation timmings within a p
 
 ## Installing
 
-Let's talk about kevin:
-
 ```
 $ bower install delay.css
 ```
@@ -55,18 +53,25 @@ $ npm i delay.css
 
 ## Using
 
-Delay.css is divided into 100ms blocks that goes from 100 to 6000 (100ms to 6s) of timming control.
+Delay.css is divided into 100ms blocks that goes from 100 to 6000 (100ms to 6s) of timming control, and two simple classes `.delay-<ms>` and `.duration-<ms>`.
+
+This can be easily adjusted if you need less or more timming control (as you will see in the next section). Each class will delay the start of the animation by the amount of miliseconds it describes. So the class `.delay-100` will delay the start of the start of the animation by 100ms and `.duration-100` will __force__ the animation to have 100ms long.
 
 This can be easily adjusted if you need less or more timming control (as you will see in the next section).
 
 To use it, just add the corresponding classes to your elements, for instance:
 
 ```html
-<div class="animate fade-up delay-1200"
+<div class="animate fade-up delay-1200">
+```
+
+Try it out in your css, or [see it in action](https://khaosdoctor.github.io/delay.css).
 
 ## Wanna join the team?
 
 Yeah! I'm always looking to find someone eager to contribute to this humble project! So, if you didn't yet, please read the [guidelines](CONTRIBUTING.md) before sending anything, this way we can discuss things more easily.
+
+Also, all the contributors here must agree to the [Contributor Covenant](http://contributor-covenant.org/) code of conduct.
 
 Once you are confortable, commit away! I promisse to read it ok?
 
