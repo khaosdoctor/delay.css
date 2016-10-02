@@ -20,7 +20,6 @@
     "*.md",
     "*.yml",
     "node_modules",
-    "**/*.scss",
     "bower_components",
     "test",
     "tests"
