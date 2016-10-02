@@ -1,6 +1,6 @@
 ![Delay.css logo](logo_title.png)
 
-# delay.css [![Build Status Master](https://travis-ci.org/khaosdoctor/ngs.svg?branch=master)](https://travis-ci.org/khaosdoctor/delay.css)
+# delay.css [![Build Status Master](https://travis-ci.org/khaosdoctor/delay.css.svg?branch=master)](https://travis-ci.org/khaosdoctor/delay.css)
 
 > CSS animation timming helpers
 
