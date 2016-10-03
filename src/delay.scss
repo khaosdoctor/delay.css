@@ -1,8 +1,10 @@
 $i: 0;
+$maxms: 6000;
+$hops: 100;
 
-@while $i < 6000 {
+@while $i < $maxms {
 
-  $i: $i + 100;
+  $i: $i + $hops;
 
   .delay-#{$i} {
     animation-delay: #{$i / 1000}s;
