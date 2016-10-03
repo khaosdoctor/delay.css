@@ -15,7 +15,7 @@ First, some stats!
 
 ### Code Status
 
-[![devDependencies Status](https://david-dm.org/khaosdoctor/delay.css/dev-status.svg)](https://david-dm.org/khaosdoctor/delay.css?type=dev) 	|
+[![devDependencies Status](https://david-dm.org/khaosdoctor/delay.css/dev-status.svg)](https://david-dm.org/khaosdoctor/delay.css?type=dev)
 
 ### Build Status
 
