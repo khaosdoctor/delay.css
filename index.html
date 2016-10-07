@@ -1,154 +1,133 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href="https://fonts.googleapis.com/css?family=Chivo:900" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="stylesheets/delay.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
-    <link rel="icon" href="favicon.png" sizes="256x256" type="image/png">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Delay.css</title>
-  </head>
-
-  <body>
-    <div id="container">
-      <div class="inner">
-
-        <header>
-          <h1><img src="images/logo_title.png" alt="Delay.css logo"></h1>
-          <h2>CSS Helpers to control CSS animation timming</h2>
-        </header>
-
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/khaosdoctor/delay.css/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/khaosdoctor/delay.css/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/khaosdoctor/delay.css" id="view-on-github" class="button"><span>View on GitHub</span></a>
-          <a href="/demo.html" id="demo" class="button"><span>View Demo</span></a>
-        </section>
-
-        <hr>
-
-        <section id="main_content">
-
-          <center><p>
+---
+layout: base
+---
+ <center>
+          <p>
             <a href="https://raw.githubusercontent.com/khaosdoctor/ngs/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="GitHub license"></a>
-<a href="https://github.com/khaosdoctor/ngs/issues"><img src="https://img.shields.io/github/issues/khaosdoctor/ngs.svg" alt="GitHub issues"></a>
-<a href="https://david-dm.org/khaosdoctor/delay.css?type=dev"><img src="https://david-dm.org/khaosdoctor/delay.css/dev-status.svg" alt="devDependencies Status"></a></p></center>
-<h3>
-<a id="build-status" class="anchor" href="#build-status" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Build Status</h3>
+            <a href="https://github.com/khaosdoctor/ngs/issues"><img src="https://img.shields.io/github/issues/khaosdoctor/ngs.svg" alt="GitHub issues"></a>
+            <a href="https://david-dm.org/khaosdoctor/delay.css?type=dev"><img src="https://david-dm.org/khaosdoctor/delay.css/dev-status.svg" alt="devDependencies Status"></a>
+          </p>
+        </center>
+        <h3>
+          <a id="build-status" class="anchor" href="#build-status" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Build
+          Status</h3>
 
 
-<p><strong>Branch Master:</strong><a href="https://travis-ci.org/khaosdoctor/delay.css"><img src="https://travis-ci.org/khaosdoctor/delay.css.svg?branch=master" alt="Build Status Branch Master"></a></p>
+        <p><strong>Branch Master:</strong>
+          <a href="https://travis-ci.org/khaosdoctor/delay.css"><img src="https://travis-ci.org/khaosdoctor/delay.css.svg?branch=master" alt="Build Status Branch Master"></a>
+        </p>
 
-<p><strong>Branch Dev:</strong><a href="https://travis-ci.org/khaosdoctor/delay.css"><img src="https://travis-ci.org/khaosdoctor/delay.css.svg?branch=dev" alt="Build Status Branch Dev"></a></p>
+        <p><strong>Branch Dev:</strong>
+          <a href="https://travis-ci.org/khaosdoctor/delay.css"><img src="https://travis-ci.org/khaosdoctor/delay.css.svg?branch=dev" alt="Build Status Branch Dev"></a>
+        </p>
 
-<h2>
-<a id="whats-is-it" class="anchor" href="#whats-is-it" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Whats is it</h2>
+        <h2>
+          <a id="whats-is-it" class="anchor" href="#whats-is-it" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Whats
+          is it</h2>
 
-<p>Delay.css works best along with <a href="https://github.com/daneden">Daniel Eden"s</a> <a href="https://github.com/daneden/animate.css">Animate.css</a>, by including CSS classes and helpers to control animation timmings and delays, but it works on any kind of CSS animations as well.</p>
+        <p>Delay.css works best along with <a href="https://github.com/daneden">Daniel Eden"s</a> <a href="https://github.com/daneden/animate.css">Animate.css</a>,
+          by including CSS classes and helpers to control animation timmings and delays, but it works on any kind of CSS
+          animations as well.</p>
 
-<p>In other words, it is possible to add sequential animations or increase the duration of a particular animation using only a tiny helper class.</p>
+        <p>In other words, it is possible to add sequential animations or increase the duration of a particular animation using
+          only a tiny helper class.</p>
 
-<blockquote>
-<p>But we can also do this with CSS3, why add this?</p>
-</blockquote>
+        <blockquote>
+          <p>But we can also do this with CSS3, why add this?</p>
+        </blockquote>
 
-<p>Because of the same reason we have <a href="https://github.com/daneden/animate.css">Animate.css</a>, it is just easier to implement something that has already been done and tested than create something from scratch.</p>
+        <p>Because of the same reason we have <a href="https://github.com/daneden/animate.css">Animate.css</a>, it is just easier
+          to implement something that has already been done and tested than create something from scratch.</p>
 
-<h3>
-<a id="tldr" class="anchor" href="#tldr" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TL;DR</h3>
+        <h3>
+          <a id="tldr" class="anchor" href="#tldr" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TL;DR</h3>
 
-<p>Delay.css was created to help you control your CSS animation timmings within a project.</p>
+        <p>Delay.css was created to help you control your CSS animation timmings within a project.</p>
 
-<h2>
-<a id="installing" class="anchor" href="#installing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installing</h2>
+        <p><a href="/demo.html" id="demo" class="button"><span>Check out the Demo</span></a></p>
 
-<pre><code>$ bower install delay.css --save
+        <h2>
+          <a id="installing" class="anchor" href="#installing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installing</h2>
+
+        <pre><code>$ bower install delay.css --save
 </code></pre>
 
-<p>It also works with npm:</p>
+        <p>It also works with npm:</p>
 
-<pre><code>$ npm i delay.css --save
+        <pre><code>$ npm i delay.css --save
 </code></pre>
 
-<h2>
-<a id="using" class="anchor" href="#using" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Using</h2>
+        <h2>
+          <a id="using" class="anchor" href="#using" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Using</h2>
 
-<p>First of all, add the css to your document"s head:</p>
+        <p>First of all, add the css to your document"s head:</p>
 
-<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">head</span>&gt;
-  &lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>delay.css<span class="pl-pds">"</span></span>&gt;
-&lt;/<span class="pl-ent">head</span>&gt;</pre></div>
+        <div class="highlight highlight-text-html-basic">
+          <pre>&lt;<span class="pl-ent">head</span>&gt;&lt;<span class="pl-ent">link</span><span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span> </span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>delay.css<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">head</span>&gt;</pre>
+        </div>
 
-<p>Then select the desired duration or delay.</p>
+        <p>Then select the desired duration or delay.</p>
 
-<p>Delay.css is divided into 100ms blocks that goes from 100 to 6000 (100ms to 6s) of timming control, and two simple classes <code>.delay-&lt;ms&gt;</code> and <code>.duration-&lt;ms&gt;</code>.</p>
+        <p>Delay.css is divided into 100ms blocks that goes from 100 to 6000 (100ms to 6s) of timming control, and two simple
+          classes <code>.delay-&lt;ms&gt;</code> and <code>.duration-&lt;ms&gt;</code>.</p>
 
-<p>This can be easily adjusted if you need less or more timming control (as you will see in the next section). Each class will delay the start of the animation by the amount of miliseconds it describes. So the class <code>.delay-100</code> will delay the start of the start of the animation by 100ms and <code>.duration-100</code> will <strong>force</strong> the animation to have 100ms long.</p>
+        <p>This can be easily adjusted if you need less or more timming control (as you will see in the next section). Each
+          class will delay the start of the animation by the amount of miliseconds it describes. So the class <code>.delay-100</code>          will delay the start of the start of the animation by 100ms and <code>.duration-100</code> will <strong>force</strong>          the animation to have 100ms long.</p>
 
-<p>This can be easily adjusted if you need less or more timming control (as you will see in the next section).</p>
+        <p>This can be easily adjusted if you need less or more timming control (as you will see in the next section).</p>
 
-<p>To use it, just add the corresponding classes to your elements, for instance:</p>
+        <p>To use it, just add the corresponding classes to your elements, for instance:</p>
 
-<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>animate fadeInDown delay-1200<span class="pl-pds">"</span></span>&gt; <span class="pl-c">&lt;!-- This will happen first --&gt;</span>
-  &lt;<span class="pl-ent">h1</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>animate fadeInUp delay-1500<span class="pl-pds">"</span></span>&gt;This is a header&lt;/<span class="pl-ent">h1</span>&gt; <span class="pl-c">&lt;!-- This will happen 300ms after the div has appeared --&gt;</span>
-&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+        <div class="highlight highlight-text-html-basic">
+          <pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>animate
+            fadeInDown delay-1200<span class="pl-pds">"</span></span>&gt; <span class="pl-c">&lt;!-- This will happen first --&gt;</span>&lt;
+            <span class="pl-ent">h1</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>animate
+            fadeInUp delay-1500<span class="pl-pds">"</span></span>&gt;This is a header&lt;/<span class="pl-ent">h1</span>&gt;
+            <span class="pl-c">&lt;!-- This will happen 300ms after the div has appeared --&gt;</span> &lt;/
+            <span class="pl-ent">div</span>&gt;</pre>
+        </div>
 
-<p>Try it out in your css, or <a href="https://khaosdoctor.github.io/delay.css">see it in action</a>.</p>
+        <p>Try it out in your css, or <a href="https://khaosdoctor.github.io/delay.css">see it in action</a>.</p>
 
-<h3>
-<a id="building-more-timmings" class="anchor" href="#building-more-timmings" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Custom Builds</h3>
+        <h3>
+          <a id="building-more-timmings" class="anchor" href="#building-more-timmings" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Custom
+          Builds</h3>
 
-<p>To add or remove timmings from your customized version of this project, just go to the <code>src</code> folder and modify the file called <code>delay.scss</code>.</p>
-          
-          There will be 3 Sass variables, <code>$i</code> (which stands for <code>increment</code>  do not touch this!), <code>$maxms</code> which will be the max time your delay/duration will have and <code>$hops</code> which, of course, will be the size of the "jumps" between values.
+        <p>To add or remove timmings from your customized version of this project, just go to the <code>src</code> folder and
+          modify the file called <code>delay.scss</code>.</p>
 
-          <p>Example:</p>
-<div class="highlight highlight-source-scss"><pre>
-<span class="pl-e">$i:</span> 0;
-<span class="pl-e">$maxms:</span> 7500;
-<span class="pl-e">$hops:</span> 500;
-</pre></div>
-          
-          <p>Will generate a file containing <code>.delay-</code> and <code>.duration-</code> classes that goes from 500 to 7500ms jumping in ranges of 500ms each.</p>
+        There will be 3 Sass variables, <code>$i</code> (which stands for <code>increment</code> do not touch this!), <code>$maxms</code>        which will be the max time your delay/duration will have and <code>$hops</code> which, of course, will be the size
+        of the "jumps" between values.
 
-<ul>
-  <li>500</li>
-  <li>1000</li>
-  <li>1500</li>
-  <li>...</li>
-          </ul>
+        <p>Example:</p>
+        <div class="highlight highlight-source-scss">
+          <pre>
+            <span class="pl-e">$i:</span> 0;
+            <span class="pl-e">$maxms:</span> 7500;
+            <span class="pl-e">$hops:</span> 500;
+          </pre>
+        </div>
 
-<p>As it uses Sass, you"ll need to build it using your own sass compiler or running the gulpfile included in the project when you download it, just type <code>npm i</code> (if you didn"t install the dependencies) then <code>gulp</code> and it will create a <code>dist</code> folder with your alterations.</p>
+        <p>Will generate a file containing <code>.delay-</code> and <code>.duration-</code> classes that goes from 500 to 7500ms jumping in ranges of 500ms each.</p>
 
-<h2>
-<a id="wanna-join-the-team" class="anchor" href="#wanna-join-the-team" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Wanna join the team?</h2>
+        <ul>
+          <li>500</li>
+          <li>1000</li>
+          <li>1500</li>
+          <li>...</li>
+        </ul>
 
-<p>Yeah! I"m always looking to find someone eager to contribute to this humble project! So, if you didn"t yet, please read the <a href="CONTRIBUTING.md">guidelines</a> before sending anything, this way we can discuss things more easily.</p>
+        <p>As it uses Sass, you"ll need to build it using your own sass compiler or running the gulpfile included in the project
+          when you download it, just type <code>npm i</code> (if you didn"t install the dependencies) then <code>gulp</code>          and it will create a <code>dist</code> folder with your alterations.</p>
 
-<p>Also, all the contributors here must agree to the <a href="http://contributor-covenant.org/">Contributor Covenant</a> code of conduct.</p>
+        <h2>
+          <a id="wanna-join-the-team" class="anchor" href="#wanna-join-the-team" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Wanna
+          join the team?</h2>
 
-<p>Once you are confortable, commit away! I promisse to read it ok?</p>
+        <p>Yeah! I"m always looking to find someone eager to contribute to this humble project! So, if you didn"t yet, please
+          read the <a href="CONTRIBUTING.md">guidelines</a> before sending anything, this way we can discuss things more
+          easily.</p>
 
-<h2>
-<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+        <p>Also, all the contributors here must agree to the <a href="http://contributor-covenant.org/">Contributor Covenant</a>          code of conduct.</p>
 
-<p>MPL 2.0 © <a href="https://github.com/khaosdoctor">Lucas Santos</a></p>
-        </section>
-
-        <footer>
-          Delay.css is maintained by <a href="https://github.com/khaosdoctor">khaosdoctor</a><br>
-          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-        
-      </div>
-    </div>
-  </body>
-</html>
+        <p>Once you are confortable, commit away! I promisse to read it ok?</p>

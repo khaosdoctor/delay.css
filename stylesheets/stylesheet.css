@@ -102,6 +102,18 @@ header h2 {
   margin-bottom: 40px;
 }
 
+#demo {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+a#demo span {
+  padding-left: 0;
+}
+
 a.button {
   display: block;
   float: left;
