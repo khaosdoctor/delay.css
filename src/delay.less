@@ -1,0 +1,20 @@
+@i: 0;
+@maxms: 6000;
+@hops: 100;
+
+.loop (@i) when (@i <= @maxms) {
+
+  @val: @i /1000;
+  .delay-@{i} {
+    animation-delay: @val s;
+  }
+  .duration-@{i} {
+    animation-duration: @val s;
+  }
+
+  .loop(@i + @hops);
+}
+
+.loop(@maxms+1) {}
+
+.loop(@hops);
