@@ -1,3 +1,57 @@
 ---
 layout: base
 ---
+<main>
+  <h1>Check out the demos:</h1>
+
+  <div class="demo-block">
+    <ul class="demo-cards">
+      <li class="demo-card">
+        <div class="demo-card-content">
+          <figure>
+            <img class="animated fadeInUp delay-100 duration-1000" src="favicon.png" alt="delay.css demo">
+          </figure>
+          <pre><code>&lt;img class="animated fadeInUp <span class="pl-e">delay-100</span> <span class="pl-ent">duration-1000</span>" src="favicon.png"&gt;</code></pre>
+        </div>
+      </li>
+      <li class="demo-card">
+        <div class="demo-card-content">
+          <figure>
+            <img class="animated fadeIn delay-600 duration-2000" src="favicon.png" alt="delay.css demo">
+          </figure>
+          <pre><code>&lt;img class="animated fadeInUp <span class="pl-e">delay-600</span> <span class="pl-ent">duration-2000</span>" src="favicon.png"&gt;</code></pre>
+        </div>
+      </li>
+    </ul>
+
+    <ul class="demo-cards">
+      <li class="demo-card">
+        <div class="demo-card-content">
+          <figure>
+            <img class="animated fadeInRight delay-1200 duration-1500" src="favicon.png" alt="delay.css demo">
+          </figure>
+          <pre><code>&lt;img class="animated fadeInUp <span class="pl-e">delay-1200</span> <span class="pl-ent">duration-1500</span>" src="favicon.png"&gt;</code></pre>
+        </div>
+      </li>
+      <li class="demo-card">
+        <div class="demo-card-content">
+          <figure>
+            <img class="animated fadeInLeft delay-1800 duration-1600" src="favicon.png" alt="delay.css demo">
+          </figure>
+          <pre><code>&lt;img class="animated fadeInUp <span class="pl-e">delay-1800</span> <span class="pl-ent">duration-1600</span>" src="favicon.png"&gt;</code></pre>
+        </div>
+      </li>
+    </ul>
+    <button type="button" style="display: block;width:25%;">Reload!</button>
+  </div>
+</main>
+
+<script type="text/javascript">
+  document.getElementsByTagName('body')[0].addEventListener('click', function(e) {
+    if(e.target.tagName.toLowerCase() === 'button') {
+      var element = document.getElementsByClassName('demo-block')[0];
+      var newel = element.cloneNode(true);
+      element.parentNode.replaceChild(newel, element);
+    }
+  });
+</script>
