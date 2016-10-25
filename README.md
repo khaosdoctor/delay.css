@@ -62,7 +62,7 @@ To use it, just add the corresponding classes to your elements, for instance:
 </div>
 ```
 
-Try it out in your css, or [see it in action](https://khaosdoctor.github.io/delay.css).
+Try it out in your css, or [see it in action](https://khaosdoctor.github.io/delay.css/demo.html).
 
 ### Custom builds
 
