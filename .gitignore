@@ -2,6 +2,7 @@
 # Created by https://www.gitignore.io/api/sass,macos,windows,linux,visualstudiocode,emacs,vim,sublimetext
 
 node_modules/
+_site/
 
 ### Sass ###
 .sass-cache/
