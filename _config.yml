@@ -1,5 +1,2 @@
 gems:
   - jekyll-sitemap
-
-baseurl: "/delay.css"
-url: "khaosdoctor.github.io"
