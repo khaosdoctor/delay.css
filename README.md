@@ -78,6 +78,8 @@ $maxms: 7500;
 $hops: 500;
 ```
 
+> The same goes for LESS files, just change the `delay.scss` to `delay.less` and the `$` to `@`
+
 Will generate a file containing `.delay-` and `.duration-` classes that goes from 500 to 7500ms jumping in ranges of 500ms each.
 
 - .delay-500
