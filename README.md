@@ -99,4 +99,4 @@ Once you are confortable, commit away! I promisse to read it ok?
 
 ## License
 
-MPL 2.0 © [Lucas Santos](https://github.com/khaosdoctor)
+MIT 2.0 © [Lucas Santos](https://github.com/khaosdoctor)
