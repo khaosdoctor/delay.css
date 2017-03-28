@@ -1,6 +1,6 @@
 ![Delay.css logo](logo_title.png)
 
-# delay.css [![Build Status Master](https://travis-ci.org/khaosdoctor/delay.css.svg?branch=master)](https://travis-ci.org/khaosdoctor/delay.css) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/khaosdoctor/ngs/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/khaosdoctor/ngs.svg)](https://github.com/khaosdoctor/ngs/issues) [![devDependencies Status](https://david-dm.org/khaosdoctor/delay.css/dev-status.svg)](https://david-dm.org/khaosdoctor/delay.css?type=dev)
+# delay.css [![Build Status Master](https://travis-ci.org/khaosdoctor/delay.css.svg?branch=master)](https://travis-ci.org/khaosdoctor/delay.css) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/khaosdoctor/ngs/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/khaosdoctor/delay.css.svg)](https://github.com/khaosdoctor/delay.css/issues) [![devDependencies Status](https://david-dm.org/khaosdoctor/delay.css/dev-status.svg)](https://david-dm.org/khaosdoctor/delay.css?type=dev)
 
 > CSS animation timming helpers
 
