@@ -5,4 +5,4 @@ before_script:
   - nvm install node
   - npm i -g gulp
   - npm i
-script: awesome_bot README.md --allow-ssl --allow 403
+script: awesome_bot README.md --allow-ssl --allow 403 --allow-redirect --allow-dupe
