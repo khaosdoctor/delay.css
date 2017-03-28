@@ -1,15 +1,8 @@
-language: node_js
-node_js:
-  - "node"
-  - "6"
-  - "6.1"
-  - "5"
-  - "4"
-  - "iojs"
-before_script:
+language: ruby
+rvm: 2.2
+before-script:
+  - gem install awesome_bot
+  - nvm install node
   - npm i -g gulp
   - npm i
-matrix:
-  allow_failures:
-    - node_js: "iojs"
-
+script: awesome_bot README.md --allow-ssl --alow 403
