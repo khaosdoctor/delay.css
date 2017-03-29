@@ -4,11 +4,12 @@ before_script:
   - gem install awesome_bot sass
   - nvm install node
   - npm i -g gulp less
+  - echo "if [ ! -f ./dist/less.css ] && [ ! -f ./dist/sass.css ]; then  exit 1; else exit 0; fi" > exists_test.sh
 script:
   - awesome_bot README.md --allow-ssl --allow 403 --allow-redirect --allow-dupe
   - lessc --verbose src/delay.less dist/less.css
   - sass src/delay.scss dist/sass.css --trace -g
-  - "[ ! -f ./dist/less.css ]; exit 1"
-  - "[ ! -f ./dist/sass.css ]; exit 1 || exit 0"
-after_success:
+  - bash exists_test.sh
+
+deploy:
   - test $TRAVIS_BRANCH = "dev" && git reset --hard HEAD && git checkout master && git merge dev && git push
