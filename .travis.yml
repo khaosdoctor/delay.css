@@ -10,3 +10,5 @@ script:
   - lessc --verbose src/delay.less dist/less.css
   - sass src/delay.scss dist/sass.css --trace -g
   - bash exists_test.sh
+deploy:
+  - test $TRAVIS_BRANCH = "dev" && git reset --hard HEAD && git checkout master && git merge dev && git push
