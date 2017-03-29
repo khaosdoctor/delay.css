@@ -1,3 +1,6 @@
+os:
+  - osx
+  - linux
 language: ruby
 rvm: 2.2
 before_script:
