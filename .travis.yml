@@ -4,9 +4,9 @@ before_script:
   - gem install awesome_bot sass
   - nvm install node
   - npm i -g gulp less
-script: 
+script:
   - awesome_bot README.md --allow-ssl --allow 403 --allow-redirect --allow-dupe
   - less --verbose src/delay.less dist/less.css
   - sass src/delay.scss dist/sass.css --trace -g
-  - [ ! -f ./dist/less.css ]; exit 1
-  - [ ! -f ./dist/sass.css ]; exit 1 || exit 0
+  - "[ ! -f ./dist/less.css ]; exit 1"
+  - "[ ! -f ./dist/sass.css ]; exit 1 || exit 0"
