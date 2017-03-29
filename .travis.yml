@@ -11,4 +11,4 @@ script:
   - sass src/delay.scss dist/sass.css --trace -g
   - bash exists_test.sh
 after_success:
-  - test $TRAVIS_BRANCH = "dev" && git reset --hard HEAD && git checkout master && git merge dev && git push
+  - test $TRAVIS_BRANCH = "dev" && git reset --hard HEAD && git fetch --all --prune && git pull origin master && git checkout master && git merge dev && git push origin master
