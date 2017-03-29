@@ -6,7 +6,9 @@ before_script:
   - npm i -g gulp less
 script:
   - awesome_bot README.md --allow-ssl --allow 403 --allow-redirect --allow-dupe
-  - less --verbose src/delay.less dist/less.css
+  - lessc --verbose src/delay.less dist/less.css
   - sass src/delay.scss dist/sass.css --trace -g
   - "[ ! -f ./dist/less.css ]; exit 1"
   - "[ ! -f ./dist/sass.css ]; exit 1 || exit 0"
+after_success:
+  - test $TRAVIS_BRANCH = "dev" && git reset --hard HEAD && git checkout master && git merge dev && git push
